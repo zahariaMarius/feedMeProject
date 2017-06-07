@@ -14,9 +14,11 @@ public class SplashScreen extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
+        // non serve
+       // LinearLayout linearLayout = (LinearLayout)findViewById(R.id.splash);
+       // linearLayout.setBackgroundColor(Color.RED);
 
-        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.splash);
-        linearLayout.setBackgroundColor(Color.RED);
+
 
         Thread timerThread = new Thread(){
             public void run(){
