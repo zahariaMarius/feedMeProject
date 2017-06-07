@@ -2,8 +2,10 @@ package it.itspiemonte.feedmeproject;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 public class SplashScreen extends Activity {
 
@@ -12,6 +14,9 @@ public class SplashScreen extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
+
+        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.splash);
+        linearLayout.setBackgroundColor(Color.RED);
 
         Thread timerThread = new Thread(){
             public void run(){
