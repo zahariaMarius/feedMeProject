@@ -2,6 +2,7 @@ package it.itspiemonte.feedmeproject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
