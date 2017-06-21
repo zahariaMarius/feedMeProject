@@ -68,9 +68,10 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
         android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@+id/TxtPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/TxtPassword"
+        android:onClick="bottonClickFunction" />
 
     <TextView
         android:id="@+id/TxtForgetPassword"
