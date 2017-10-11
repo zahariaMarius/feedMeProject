@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FeedMeProject</string>
+    <string name="testo_tutorial1">Trova il tuo ristorante</string>
+    <string name="testo_tutorial2">Scopri il tuo piatto</string>
+    <string name="testo_tutorial3">Ordina e Paga</string>
+
 </resources>
